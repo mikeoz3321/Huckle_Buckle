@@ -1,21 +1,15 @@
-var randNum = Math.random()
-var guessNum = show(prompt("Pick a number","..."));
+$(document).ready(function(){
 
-function absNum(a){
-	if (a>0) 
-		return a;
-	else if (a<0)
-		return (a*-1);
-	else 
-		return 0;
+var trueNum = Math.floor((Math.random()*100)+1);
 
-	function checkNum (){
-		if (randNum != guessNum )
-			return ("You Win");
-		else if (absNum(randNum-guessNum)>=10)
-		else if (absNum(randNum-guessNum)<=5)
-			return("Hot!")
-		else if(absNum(randNum-guessNum)<=10 && absNum(randNum-guessNum) >5)
-			return ("Getting Hot");
-	}
-}
+$('#mainform').submit(function(){
+	var userGuess = $('#guessNum').val();
+	var absTest = $(Math.abs(userGuess-trueNum));
+	if absTest ==0
+		return "You Win, Nice Work";
+	else if
+		return  
+
+})
+
+})
