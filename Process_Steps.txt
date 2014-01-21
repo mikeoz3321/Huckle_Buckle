@@ -1,0 +1,10 @@
+1) Computer generates a number
+2) User enters first guess
+3) Computer checks whether the guess is right
+	a) Correct guess - "You Win!". Games Ends
+	b) Incorrect guess - computer tells you whether you are hot, cold, warm, depending on how far your guess is form the computer's number
+4) User enters second guess
+	a) Correct guess - "You win!". Game Ends
+	b) Incorrect guess - computer tells youw wheter you are going in the right direction. "Getting Warmer, getting colder, getting hot"
+5) Repeat #4 until Game ends
+
